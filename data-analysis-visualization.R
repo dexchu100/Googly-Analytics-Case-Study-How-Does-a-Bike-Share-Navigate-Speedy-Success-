@@ -73,7 +73,7 @@ cyclist_data %>%
   geom_col(position = "dodge")
 
 
-# Create a csv file that we will visualize in Excel, Tableau, or my presentation software
+# Create a csv file that we will visualize in Tableau
 counts <- aggregate(cyclist_data$ride_length ~ cyclist_data$member_casual + cyclist_data$day_of_week + cyclist_data$month + cyclist_data$rideable_type + cyclist_data$start_station_name, FUN = mean)
 write.csv(counts, file = 'C:/Users/dexch/Documents/cyclist-data/avg_ride_length.csv')
 
