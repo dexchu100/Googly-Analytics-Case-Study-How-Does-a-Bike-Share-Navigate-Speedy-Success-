@@ -1,7 +1,7 @@
 #Cleaning the Data for Analysis
 
-install.packages("tidyverse") #collection of r packages that would be useful to me
-install.packages("lubridate") #help with conversions of Dates and Time
+install.packages("tidyverse")
+install.packages("lubridate") 
 install.packages("dplyr")
 install.packages("tidyr")
 library(tidyverse)
